@@ -122,11 +122,11 @@ const logout = document.querySelector("#logout");
 
 logout.addEventListener("click", (e) => {
     sessionStorage.clear();
-    location.href = "WELCOME.html";
+    location.href = "index.html";
 });
 window.onload = () => {
     if (!sessionStorage.role) {
-        location.href = "WELCOME.html";
+        location.href = "index.html";
     }
 };
 
