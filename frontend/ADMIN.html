@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Complaint Management System</title>
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="header">
+      <h1>Complaint Management System</h1>
+      <div class="home">
+        <a href="ADMIN.html">
+          <img src="home.png" alt="Profile Image"/>
+        </a>
+      </div>
+      <div class="user-menu">
+        <div class="upper-nav" id="upper-nav" >
+          <p id="upper-navname"></p>
+          <p id="logout" class="logoutbtn"><button class="logout-button">Logout</button></p>
+        </div>
+        <div class="dropdown">
+          <a href="https://eastcoastrail.indianrailways.gov.in/">
+          <img src="ecor.png" alt="Profile Image" class="dropbtn" />
+          </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="upper-nav" id="upper-nav" >
+      <p id="upper-navname"></p>
+      <p id="logout" class="logoutbtn"><button>Logout</button></p>
+    </div> -->
+    <div class="container">
+      <div class="sidebar">
+        <!-- <a href="#" class="sidebar-item" id="all_complaints">All Complaints</a> -->
+        <a href="#" class="sidebar-item" id="inbox">Inbox</a>
+        <a href="#" class="sidebar-item" id="sent">Sent</a>
+        <a href="#" class="sidebar-item" id="add_user">Add User</a>
+        <a href="#" class="sidebar-item" id="activate_deactivate_user">Activate/Deactivate User</a>
+        <a href="#" class="sidebar-item" id="reports">Reports</a>
+      </div>
+      <div class="main-content" id="main-content">
+        <div class="welcomebox">
+          <h2 class="welcometext">Select a option from sidebar!!</h2>
+        </div>
+        <!-- Content boxes can be added here as needed -->
+      </div>
+    </div>
+    <div class="footer">
+      <p>© 2024 Railway Complaint Management System</p>
+    </div>
+    <script src="script_admin.js"></script>
+  </body>
+</html>
